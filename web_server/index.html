@@ -16,7 +16,7 @@
         function initialize() {
             if (GBrowserIsCompatible()) {
                 map = new GMap2(document.getElementById("map_canvas"));
-                map.setCenter(new GLatLng(37.4419, -122.1419), 1);
+                map.setCenter(new GLatLng(38.9, -76.9), 10);
                 map.setUIToDefault();
                 geocoder = new GClientGeocoder();
             }
@@ -54,7 +54,7 @@
         <br/>
     </p>
     <p>
-        <input type="text" style="width:350px" name="address" value="1600 Amphitheatre Pky, Mountain View, CA" />
+        <input type="text" style="width:350px" name="address" value="College Park, Maryland" />
         <input type="submit" value="Go!" />
     </p>
     The latitude/longitude will appear in the infowindow after each geocode/drag.

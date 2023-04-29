@@ -9,6 +9,6 @@
   "author": "PG 7",
   "license": "ISC",
   "dependencies": {
-    "cities": "^1.1.2"
+    "cities": "^2.0.0"
   }
 }
